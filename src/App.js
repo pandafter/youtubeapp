@@ -9,7 +9,7 @@ function App() {
   return (
     
     <BrowserRouter>
-      <Box sx={{ backgroundColor: '#000'}}>
+      <Box sx={{ backgroundColor: '#1A1C22'}}>
         <NavBar/>
         <Routes>
           <Route path='/' excact element={<Feed/>}/>

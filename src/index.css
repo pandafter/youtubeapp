@@ -1,3 +1,12 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../public/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: Caprasimo;
+  src: url(../public/fonts/Caprasimo-Regular.ttf);
+}
+
 
 body {
   margin: 0;
@@ -9,6 +18,7 @@ body {
 a {
   text-decoration: none;
   color: black;
+  font-family: Poppins;
 }
 
 ::-webkit-scrollbar {
@@ -27,10 +37,10 @@ a {
 }
 
 .category-btn:hover {
-  background-color: #FC1503 !important;
+  background-color: #580EF6 !important;
   color: white !important;
 }
-
+s
 .category-btn:hover span{
   color: white !important;
 }
@@ -43,11 +53,13 @@ a {
 .search-bar{
   border:none;
   outline:none;
+  font-family: Poppins;
   width:350px;
 
 }
 
 .category-btn{
+  font-family: Poppins;
   font-weight: bold !important;
   text-transform: capitalize;
   display: flex;
@@ -87,4 +99,10 @@ a {
   .search-bar{
     width:200px;
   }
+}
+.title1{
+  font-family: Poppins;
+}
+.title2{
+  font-family: Poppins;
 }
